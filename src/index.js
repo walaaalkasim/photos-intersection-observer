@@ -1,9 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./App.css";
+import Routings from "./routes/Routings";
 
-ReactDOM.render(
-    <App />, document.querySelector('#root')
-);
-
-
+ReactDOM.render(<Routings />, document.querySelector("#root"));

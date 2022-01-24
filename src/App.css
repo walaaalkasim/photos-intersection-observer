@@ -1,0 +1,145 @@
+.car_photos_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(248, 246, 246);
+}
+img {
+  width: 30vw;
+  height: 40vh;
+  border-radius: 40px;
+}
+nav ul li {
+  display: inline;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 35px;
+  background-color: rgb(210, 211, 210);
+  color: black;
+  margin-left: 5vw;
+}
+nav ul a {
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: burlywood;
+}
+nav {
+  margin-left: 200px;
+}
+
+header h2 {
+  width: 10vw;
+  background-color: rgb(210, 211, 210);
+
+  border-radius: 10px;
+  text-align: center;
+}
+
+div > p > h2 {
+  width: 20vw;
+  margin-left: 35vw;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+header > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  display: grid;
+}
+.home-nav {
+}
+.prev-page {
+  margin-left: 5vw;
+  border-radius: 50px 0 0 50px;
+}
+.next-page {
+  margin-left: 75vw;
+  border-radius: 0 50px 50px 0;
+}
+.prev-page,
+.next-page {
+  border: 1px solid rgb(213, 208, 218);
+  border-radius: 5px;
+
+  height: 5vh;
+  width: 7vw;
+}
+.pagination-upper-page {
+  display: flex;
+  background-color: rgb(213, 208, 218);
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+}
+.color-pick {
+  display: grid;
+  grid-template-columns: repeat(4, 15vw);
+  gap: 3vw;
+  justify-content: center;
+  padding-top: 5px;
+}
+.red-btn {
+  background-color: red;
+}
+.red-btn:hover {
+  background-color: rgb(158, 10, 10);
+}
+.blue-btn {
+  background-color: blue;
+}
+.blue-btn:hover {
+  background-color: rgb(7, 7, 167);
+}
+.green-btn {
+  background-color: green;
+}
+.green-btn:hover {
+  background-color: rgb(11, 93, 11);
+}
+.yellow-btn {
+  background-color: yellow;
+}
+.yellow-btn:hover {
+  background-color: rgb(153, 153, 10);
+}
+
+.red-btn,
+.blue-btn,
+.green-btn,
+.yellow-btn {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px 0;
+  border-color: white;
+  color: rgb(160, 156, 156);
+}
+
+.next-btn-footer {
+  margin-left: 75vw;
+
+  border-radius: 0 50px 50px 0;
+}
+.prev-btn-footer {
+  margin-left: 5vw;
+  border-radius: 50px 0 0 50px;
+}
+.prev-btn-footer,
+.next-btn-footer {
+  border: 1px solid rgb(213, 208, 218);
+  border-radius: 5px;
+
+  height: 5vh;
+  width: 7vw;
+}
+.pagination-down-page {
+  display: flex;
+  background-color: rgb(213, 208, 218);
+}
+.photo-details {
+  text-align: center;
+}
