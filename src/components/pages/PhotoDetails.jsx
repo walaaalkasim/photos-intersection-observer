@@ -8,8 +8,8 @@ const PhotoDetails = () => {
 
   const navigate = useNavigate();
   const location = useLocation();
-  const { alt, photographer, scr } = location.state;
-  console.log();
+  const { alt, photographer, src } = location.state;
+
   console.log("first");
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const PhotoDetails = () => {
     <div>
       <span> it is :{alt} </span>
       <span>photographed by :{photographer}</span>
-      {/* <img src={scr.large} alt="" /> */}
+      <img src={src.large} alt="" />
     </div>
   );
 };

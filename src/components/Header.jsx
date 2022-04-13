@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import LoginForm from "./LoginForm";
 import Nav from "./Nav";
 
-import pexels from "../helpers/pexels.jpg";
+import image from "../helpers/image.jpg";
 
 const Header = () => {
   return (
     <header>
       <Link to="/">
-        <img src={pexels} alt="" />
+        <img src={image} alt="" />
       </Link>
       <LoginForm />
       <Nav />
