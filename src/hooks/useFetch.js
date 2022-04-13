@@ -8,7 +8,7 @@ const useFetch = (url, initialState) => {
       .then((response) => response.json())
       .then((results) => setData({ results, loading: false, error: null }))
       .catch((error) => setData({ results: null, loading: false, error }));
-  }, [url]);
+  }, [url, API_KEY]);
   return data;
 };
 export default useFetch;

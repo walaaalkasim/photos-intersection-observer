@@ -56,6 +56,7 @@ const MyProvider = ({ children }) => {
         auth,
         setPage,
         photos,
+        setPhotos,
         form,
         setColor,
         pageEnd,

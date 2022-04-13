@@ -4,7 +4,7 @@ import MyContext from "../../context/MyContext";
 
 const PhotoDetails = () => {
   const context = useContext(MyContext);
-  const { auth, results, loading, error } = context;
+  const { auth, loading, error } = context;
 
   const navigate = useNavigate();
   const location = useLocation();
